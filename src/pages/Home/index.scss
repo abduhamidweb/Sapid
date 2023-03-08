@@ -1,0 +1,18 @@
+.row__main {
+  display: flex;
+}
+.userInterFace {
+  height: 100vh;
+  overflow-y: scroll;
+  max-width: 260px;
+  min-width: 260px;
+  box-shadow: 0px 1px 6px 2px rgba(50, 71, 92, 0.06),
+    0px 2px 6px 1px rgba(50, 71, 92, 0.04),
+    0px 1px 4px 2px rgba(50, 71, 92, 0.02);
+  position: relative;
+}
+.usersComponent {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

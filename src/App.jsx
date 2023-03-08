@@ -8,7 +8,7 @@ function App() {
       {/* {
         checkLogin ?alert(1) : navigation("/login")
     } */}
-<h2>Start DEV</h2>
+      
     </>
   )
 }

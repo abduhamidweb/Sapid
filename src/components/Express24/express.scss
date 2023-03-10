@@ -1,0 +1,56 @@
+.express {
+  padding: 80px 0px;
+  position: relative;
+  background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
+  background-position: center center; /* rasmni markazga joylashtirish */
+  .ex-txt {
+    h2 {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 120%;
+      /* identical to box height, or 60px */
+
+      font-feature-settings: 'pnum' on, 'lnum' on;
+
+      /* White */
+
+      color: #ffffff;
+    }
+    .accordion {
+      margin-top: 50px;
+    }
+    .accordion-item {
+      background: #1c786b;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      border: none;
+      font-size: 20px;
+      margin-top: 20px;
+      line-height: 120%;
+      /* identical to box height, or 24px */
+
+      /* White */
+
+      color: #ffffff;
+    }
+    button {
+      background: #1c786b;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 120%;
+      /* identical to box height, or 24px */
+
+      /* White */
+
+      color: #ffffff;
+    }
+  }
+  .accordion-button:after{
+    content: ">";
+  }
+}

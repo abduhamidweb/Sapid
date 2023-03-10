@@ -1,0 +1,47 @@
+.menu {
+  .menu-item {
+    display: flex;
+    align-items: center;
+    max-width: 867px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    h3 {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      padding: 17px;
+      font-size: 14px;
+      line-height: 16px;
+      cursor: pointer;
+      color: #011b18;
+    }
+    .active {
+      background: rgba(1, 27, 24, 0.1);
+      border-radius: 5px;
+    }
+  }
+  .btn {
+    display: flex;
+    margin: 20px 0;
+    justify-content: flex-start;
+    background: #348379;
+    padding: 14.5px 20px;
+    border-radius: 5px;
+    height: 50px;
+    span {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      margin-left: 10px;
+
+      /* White */
+
+      color: #ffffff;
+    }
+  }
+}

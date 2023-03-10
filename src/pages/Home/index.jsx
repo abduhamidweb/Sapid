@@ -3,12 +3,14 @@ import './index.scss'
 import Header from '../../Layout/Header/Header'
 import Hero from '../../components/Hero/Hero'
 import Menu from '../../components/Menu/Menu'
+import Cards from '../../components/Cards/Cards'
 const index = () => {
   return (
     <>
       <Header />
       <Hero />
       <Menu />
+      <Cards/>
     </>
   )
 }

@@ -1,0 +1,65 @@
+.card {
+  width: 310px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+  .discount {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .image-wrapper {
+    text-align: center;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f44336;
+    margin: 10px 0;
+    
+    .discount {
+      margin-left: 10px;
+      font-size: 16px;
+      color: #999;
+      text-decoration: line-through;
+    }
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: #d32f2f;
+    }
+  }
+}

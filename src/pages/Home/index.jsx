@@ -5,6 +5,7 @@ import Hero from '../../components/Hero/Hero'
 import Menu from '../../components/Menu/Menu'
 import Cards from '../../components/Cards/Cards'
 import Express from '../../components/Express24/Express'
+import Footer from '../../Layout/Footer/Footer'
 const index = () => {
   return (
     <>
@@ -12,7 +13,8 @@ const index = () => {
       <Hero />
       <Menu />
       <Cards />
-      <Express/>
+      <Express />
+      <Footer/>
     </>
   )
 }
